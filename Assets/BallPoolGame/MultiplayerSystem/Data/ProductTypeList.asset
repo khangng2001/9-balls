@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc68c733e7e5f43cb9b75d4eebe1f0a1, type: 3}
+  m_Name: ProductTypeList
+  m_EditorClassIdentifier: 
+  productsGroup:
+  - name: 3D
+    productsList:
+    - type: Coins
+      "nameIn\u0412atabase": Coins
+      isRealMoney: 1
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 55767e750388f45018776b6388cb718a, type: 3}
+      defaultProducts: []
+    - type: Ad
+      "nameIn\u0412atabase": Ads
+      isRealMoney: 0
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: c55095ab818ca4d9e8da6acdea88e430, type: 3}
+      defaultProducts: []
+    - type: Table
+      "nameIn\u0412atabase": Table3D
+      isRealMoney: 0
+      oneTimeBought: 1
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 3211ab4549af349ae9b09230ba014fc7, type: 3}
+      defaultProducts:
+      - name: Standard
+        price: 0
+        icon: {fileID: 2800000, guid: 3211ab4549af349ae9b09230ba014fc7, type: 3}
+        sources: []
+      - name: Other
+        price: 2300
+        icon: {fileID: 2800000, guid: 3211ab4549af349ae9b09230ba014fc7, type: 3}
+        sources:
+        - {fileID: 102900000, guid: 4c912ae373d8d48ef875c515e48a86da, type: 3}
+        - {fileID: 1411329768259986, guid: 7a9747fdcc9f3403ab7a38d6aea9f2a3, type: 2}
+    - type: Cue
+      "nameIn\u0412atabase": Cue3D
+      isRealMoney: 0
+      oneTimeBought: 1
+      maxCount: 0
+      icon: {fileID: 21300000, guid: e7051411bf18040a494f64321b599d34, type: 3}
+      defaultProducts:
+      - name: Standard
+        price: 0
+        icon: {fileID: 2800000, guid: ef7a2e4169c94431b8dda05d130d01ce, type: 3}
+        sources:
+        - {fileID: 1692312051240140, guid: 918fc3afd0a97432a8417757d4a92765, type: 2}
+    - type: AI
+      "nameIn\u0412atabase": AI
+      isRealMoney: 0
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 78b4cacad957e4c02be82f5bcea37a94, type: 3}
+      defaultProducts: []
+    - type: Lines
+      "nameIn\u0412atabase": Lines
+      isRealMoney: 0
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: b754d3787e3ce42a7b6d254535cfd73e, type: 3}
+      defaultProducts: []
+    - type: Avatar
+      "nameIn\u0412atabase": Avatars
+      isRealMoney: 0
+      oneTimeBought: 1
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 8db6439bef6c645f4914363958e54801, type: 3}
+      defaultProducts:
+      - name: User 1
+        price: 100
+        icon: {fileID: 2800000, guid: 29e93ba497ab947399f036582ca87f10, type: 3}
+        sources: []
+      - name: User 2
+        price: 100
+        icon: {fileID: 2800000, guid: 1e87e224631b746c69daa598ca91ba84, type: 3}
+        sources: []
+      - name: User 3
+        price: 100
+        icon: {fileID: 2800000, guid: 27a8588eaf34e4024a0c3d3ec8dc3b56, type: 3}
+        sources: []
+  - name: 2D
+    productsList:
+    - type: Coins
+      "nameIn\u0412atabase": Coins
+      isRealMoney: 1
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 55767e750388f45018776b6388cb718a, type: 3}
+      defaultProducts: []
+    - type: Ad
+      "nameIn\u0412atabase": Ads
+      isRealMoney: 0
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: c55095ab818ca4d9e8da6acdea88e430, type: 3}
+      defaultProducts: []
+    - type: Table
+      "nameIn\u0412atabase": Table2D
+      isRealMoney: 0
+      oneTimeBought: 1
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 1085c11a83907488aa48984897796c8d, type: 3}
+      defaultProducts:
+      - name: Standard
+        price: 0
+        icon: {fileID: 2800000, guid: 1133079229c9741b3881c7bcab714724, type: 3}
+        sources:
+        - {fileID: 2800000, guid: 6ce67c05ae80849b5b234ae8aa8adc8c, type: 3}
+        - {fileID: 2800000, guid: c258db516156548a9b0697254d1f1e64, type: 3}
+    - type: Cue
+      "nameIn\u0412atabase": Cue2D
+      isRealMoney: 0
+      oneTimeBought: 1
+      maxCount: 0
+      icon: {fileID: 21300000, guid: bcab5c4fb5d1943bf9bc9c4826f3020f, type: 3}
+      defaultProducts:
+      - name: Standard
+        price: 0
+        icon: {fileID: 2800000, guid: 4718def2147654eb7906b91f1728f68a, type: 3}
+        sources:
+        - {fileID: 2800000, guid: d3e8ed268a94c0142b6684967e0e5175, type: 3}
+    - type: AI
+      "nameIn\u0412atabase": AI
+      isRealMoney: 0
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 78b4cacad957e4c02be82f5bcea37a94, type: 3}
+      defaultProducts: []
+    - type: Lines
+      "nameIn\u0412atabase": Lines
+      isRealMoney: 0
+      oneTimeBought: 0
+      maxCount: 0
+      icon: {fileID: 21300000, guid: b754d3787e3ce42a7b6d254535cfd73e, type: 3}
+      defaultProducts: []
+    - type: Avatar
+      "nameIn\u0412atabase": Avatars
+      isRealMoney: 0
+      oneTimeBought: 1
+      maxCount: 0
+      icon: {fileID: 21300000, guid: 8db6439bef6c645f4914363958e54801, type: 3}
+      defaultProducts:
+      - name: User 1
+        price: 100
+        icon: {fileID: 2800000, guid: 29e93ba497ab947399f036582ca87f10, type: 3}
+        sources: []
+      - name: User 2
+        price: 100
+        icon: {fileID: 2800000, guid: 1e87e224631b746c69daa598ca91ba84, type: 3}
+        sources: []
+      - name: User 3
+        price: 100
+        icon: {fileID: 2800000, guid: 27a8588eaf34e4024a0c3d3ec8dc3b56, type: 3}
+        sources: []
